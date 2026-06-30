@@ -4,7 +4,7 @@ Detailed implementation of a terminal-based Automated Teller Machine (ATM) syste
 
 Key Features Implemented:
 - Object-Oriented Design: Uses Classes and Objects to model bank accounts, secure transactions, and individual user sessions.
-- Data Persistence: Utilizes C++ File Handling (Streams) via ifstream and ofstream to save and read user account details and card balances dynamically, preventing data loss upon system termination.
+- Data Persistence: Utilizes C++ File Handling (Streams) to save and read user account details and card balances dynamically, preventing data loss upon system termination.
 - Security Simulation: Includes card PIN validation and secure user login logic.
 - Input & Error Validation: Handles computational edge-cases such as insufficient balances and invalid menu selections.
 
